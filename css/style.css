@@ -1,0 +1,88 @@
+.container{
+    width: 1240px;
+    margin: 0 auto;  
+}
+.vrapper{
+       width: 200px;
+       height: 650px;
+       background-color: black;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-around;
+       margin: 0 auto;
+       div{
+           width: 190px;
+           height: 190px;
+           border: 1px solid black;
+           border-radius: 50%;
+       }
+       position: relative;
+   }
+   .vrapper::after{
+       content: '';
+       width: 30px;
+       height: 250px;
+       background-color: rgba(138, 55, 7, 0.839);
+       position: absolute;
+       bottom: -250px;
+   }
+   .box1{
+       background-color: rgba(255, 0, 0, 0.28);
+   }
+   .box2{
+       background-color: rgba(251, 255, 8, 0.357);
+   }
+   .box3{
+       background-color: rgba(55, 255, 0, 0.28);
+   }
+   .q{
+       background-color: red;
+   }
+   .s{
+       background-color: rgb(255, 255, 0);
+   }
+   .y{
+       background-color: rgb(0, 255, 0);
+   }
+
+   .vrapper2{
+       width: 200px;
+       height: 450px;
+       background-color: black;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-around;
+       margin-top: 600px ;
+       margin-right: 300px;
+       div{
+           width: 190px;
+           height: 190px;
+           border: 1px solid black;
+           border-radius: 50%;
+       }
+       position: relative;
+   }
+   .vrapper2::after{
+       content: '';
+       width: 30px;
+       height: 250px;
+       background-color: rgba(138, 55, 7, 0.839);
+       position: absolute;
+       bottom: -250px;
+   }
+
+.box4{
+    background-color: rgba(255, 0, 0, 0.28);
+}
+.box5{
+    background-color: rgba(86, 255, 8, 0.357);
+}
+
+.q1{
+       background-color: red;
+   }
+.y1{
+       background-color: rgb(21, 255, 0);
+   }
